@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.jsx": "bat",
+        "stdio.h": "c"
+    }
+}
