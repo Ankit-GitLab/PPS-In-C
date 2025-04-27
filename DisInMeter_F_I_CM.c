@@ -2,9 +2,10 @@
 
 int main() {
     float distance_km; 
-    float distance_meters, distance_feet, distance_inches, distance_centimeters; // Variables for conversions
+    float distance_meters, distance_feet,
+     distance_inches, distance_centimeters; // Variables for conversions
+     
 
-    // Asking user to input distance in kilometers
     printf("Enter distance between two cities (in kilometers): ");
     scanf("%f", &distance_km); 
 
@@ -12,7 +13,8 @@ int main() {
     distance_meters = distance_km * 1000;         
     distance_centimeters = distance_meters * 100;  
     distance_inches = distance_centimeters / 2.54; 
-    distance_feet = distance_inches / 12;          
+    distance_feet = distance_inches / 12;    
+
     // Printing the converted distances
     printf("\nDistance in meters: %.2f meters", distance_meters);
     printf("\nDistance in centimeters: %.2f cm", distance_centimeters);
