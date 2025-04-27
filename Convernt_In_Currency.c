@@ -2,7 +2,8 @@
 
 int main() {
     int amount; // Variable to store the amount
-    int notes_100, notes_50, notes_10, notes_5, notes_2, notes_1; // Variables to store number of notes
+    int notes_100, notes_50, notes_10,
+     notes_5, notes_2, notes_1; // Variables to store number of notes
 
     // Asking user to enter the amount
     printf("Enter the amount (in Rs.) : ");
